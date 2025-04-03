@@ -57,6 +57,8 @@ Security and Privacy Layer
 
 Authentication and encryption mechanisms to ensure secure information exchange.
 
+![A2A Protocol Diagram] https://github.com/GlobalAgents-Hub/A2A-Protocol/blob/main/diagram-export-03-04-2025-15_32_05.png
+
 Protection against malicious agents in the network.
 
 
