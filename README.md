@@ -60,6 +60,25 @@ Authentication and encryption mechanisms to ensure secure information exchange.
 ![A2A Protocol Diagram](https://raw.githubusercontent.com/GlobalAgents-Hub/A2A-Protocol/main/diagram-export-03-04-2025-15_32_05.png)
 Protection against malicious agents in the network.
 
+# 📝 Comparação: Google A2A vs A2A Global Agents  
 
+## 📅 Última Atualização: [Data Atual]  
+
+### 🔄 Diferenças Principais  
+| 🔹 Característica | 🏢 Google A2A | 🏗️ A2A Global Agents |
+|------------------|-------------|--------------|
+| 📡 **Comunicação** | Interoperabilidade entre agentes de diferentes plataformas | Foco na troca de dados entre servidores MCP |
+| 🔍 **Descoberta de Agentes** | Usa **Agent Cards** para identificação automática | Descoberta manual via configuração interna |
+| 🔗 **Integração** | Baseado em **JSON-RPC** e padrões abertos | Customizado para necessidades específicas do projeto |
+| 🔒 **Segurança** | Autenticação via OAuth2 e API Keys | Controle de acesso interno sem dependência externa |
+| ⚙️ **Automação** | Coordenação de tarefas entre agentes | Automação de processos internos via API Make |
+| 📊 **Análise de Dados** | Estrutura para colaboração entre agentes | Refinamento de aprendizado contínuo via Dify |
+| 🌍 **Escalabilidade** | Suporte para redes globais de agentes | Focado em otimização interna para eficiência local |
+
+---
+
+🔹 **Resumo:** O **Google A2A** foca na **interoperabilidade global** entre agentes de IA, enquanto o **A2A interno** do seu projeto é mais **customizado** para integração eficiente dentro do ecossistema MCP.  
+
+ 
 
 
