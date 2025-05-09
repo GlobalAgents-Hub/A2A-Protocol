@@ -60,6 +60,21 @@ Authentication and encryption mechanisms to ensure secure information exchange.
 ![A2A Protocol Diagram](https://raw.githubusercontent.com/GlobalAgents-Hub/A2A-Protocol/main/diagram-export-03-04-2025-15_32_05.png)
 Protection against malicious agents in the network.
 
+# 📝 Changelog Comparativo do Protocolo A2A - GlobalAgents
+
+## 📅 Última Atualização: [Data Atual]
+
+### 🆕 Alterações Recentes
+| 🏷️ Categoria      | 🔄 Atualização | 📌 Detalhes |
+|------------------|--------------|------------|
+| 🔹 Estrutura do A2A | Revisão do fluxo | Melhoramos a lógica de integração dos agentes. |
+| 📡 Comunicação | Integração com MCP | Adicionamos suporte para servidores MCP na troca de dados. |
+| 🎨 Visualização | Suporte a Kling.AI | Agora podemos gerar vídeos explicativos do protocolo com IA. |
+| ⚙️ Automação | Integração com Make | Automatização de processos internos para maior eficiência. |
+| 📊 Análise de Dados | Melhor interação com Dify | Refinamento de respostas dos agentes com aprendizado contínuo. |
+| 🔗 Redes Sociais | Otimização via Meta AI | Posts sobre A2A são agora aprimorados automaticamente para melhor engajamento. |
+
+---
 
 
 
