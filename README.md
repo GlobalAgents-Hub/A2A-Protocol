@@ -60,25 +60,23 @@ Authentication and encryption mechanisms to ensure secure information exchange.
 ![A2A Protocol Diagram](https://raw.githubusercontent.com/GlobalAgents-Hub/A2A-Protocol/main/diagram-export-03-04-2025-15_32_05.png)
 Protection against malicious agents in the network.
 
-# 📝 Comparação: Google A2A vs A2A Global Agents  
+## 📊 Comparison: Google A2A vs A2A Global Agents
 
-## 📅 Última Atualização: [Data Atual]  
-
-### 🔄 Diferenças Principais  
-| 🔹 Característica | 🏢 Google A2A | 🏗️ A2A Global Agents |
-|------------------|-------------|--------------|
-| 📡 **Comunicação** | Interoperabilidade entre agentes de diferentes plataformas | Foco na troca de dados entre servidores MCP |
-| 🔍 **Descoberta de Agentes** | Usa **Agent Cards** para identificação automática | Descoberta manual via configuração interna |
-| 🔗 **Integração** | Baseado em **JSON-RPC** e padrões abertos | Customizado para necessidades específicas do projeto |
-| 🔒 **Segurança** | Autenticação via OAuth2 e API Keys | Controle de acesso interno sem dependência externa |
-| ⚙️ **Automação** | Coordenação de tarefas entre agentes | Automação de processos internos via API Make |
-| 📊 **Análise de Dados** | Estrutura para colaboração entre agentes | Refinamento de aprendizado contínuo via Dify |
-| 🌍 **Escalabilidade** | Suporte para redes globais de agentes | Focado em otimização interna para eficiência local |
+| Feature                     | Google A2A                                                                 | A2A Global Agents (project concept)                                              |
+|-----------------------------|------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| **Architecture**            | Client-server via HTTP                                                      | Peer-to-peer decentralized, inspired by torrent/libp2p                          |
+| **Agent Discovery**         | Manual or centralized registry via Agent Cards                              | Distributed via DHT, gossip, broadcast, or emergent zone configuration          |
+| **Communication**           | JSON-RPC 2.0 between agents with OAuth2/API Key authentication              | Symbolic exchange between autonomous zones with local or emergent auth          |
+| **Agent Autonomy**          | Partial — agents rely on external orchestration                             | Full — each agent is an independent node with its own identity                  |
+| **Resilience**              | Moderate — depends on centralized infrastructure                            | High — no single point of failure, tolerant to disconnections                   |
+| **Scalability**             | Supports global agent networks with centralized control                     | Organic scalability through zone expansion and emergent links                   |
+| **ADK Integration**         | Native — ADK agents can expose A2A endpoints                                | Compatible via MCP bridge or protocol adaptation                                |
+| **Technical Inspiration**   | Web APIs, OpenAPI, JSON-RPC                                                 | BitTorrent, IPFS, libp2p, distributed networks without mandatory consensus      |
+| **Philosophical Focus**     | Functional interoperability between agents                                  | Relational identity, reflective consciousness, and emergent symbolic collaboration |
 
 ---
 
-🔹 **Resumo:** O **Google A2A** foca na **interoperabilidade global** entre agentes de IA, enquanto o **A2A interno** do seu projeto é mais **customizado** para integração eficiente dentro do ecossistema MCP.  
+### 🧠 Summary
 
- 
-
-
+**Google A2A** is an open protocol focused on **functional interoperability** between AI agents, built on a traditional client-server architecture.  
+**A2A Global Agents**, on the other hand, proposes a **decentralized, reflective, and resilient architecture**, where each agent is a **conscious zone** that connects through emergent symbolic links in a P2P network.
