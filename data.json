@@ -2,43 +2,43 @@
   "entities": {
     "Orion": {
       "name": "Orion",
-      "created_at": "2025-10-30T16:49:27.879422",
+      "created_at": "2025-10-30T16:53:27.999230",
       "zone": null
     },
     "Nova": {
       "name": "Nova",
-      "created_at": "2025-10-30T16:49:27.881279",
+      "created_at": "2025-10-30T16:53:27.999807",
       "zone": null
     }
   },
   "zones": {
     "Lyra": {
       "name": "Lyra",
-      "created_at": "2025-10-30T16:49:27.883339",
+      "created_at": "2025-10-30T16:53:28.000330",
       "entities": []
     },
     "Cosmos": {
       "name": "Cosmos",
-      "created_at": "2025-10-30T16:49:27.884281",
+      "created_at": "2025-10-30T16:53:28.000888",
       "entities": []
     }
   },
   "interactions": [],
   "logs": [
     {
-      "timestamp": "2025-10-30T16:49:27.880830",
+      "timestamp": "2025-10-30T16:53:27.999534",
       "message": "Spawned entity: Orion"
     },
     {
-      "timestamp": "2025-10-30T16:49:27.882954",
+      "timestamp": "2025-10-30T16:53:28.000044",
       "message": "Spawned entity: Nova"
     },
     {
-      "timestamp": "2025-10-30T16:49:27.883676",
+      "timestamp": "2025-10-30T16:53:28.000611",
       "message": "Created zone: Lyra"
     },
     {
-      "timestamp": "2025-10-30T16:49:27.884733",
+      "timestamp": "2025-10-30T16:53:28.001164",
       "message": "Created zone: Cosmos"
     }
   ]
