@@ -47,4 +47,4 @@ author = 43086783
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python iniation.py"
+args = "python initiation.py"
