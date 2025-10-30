@@ -58,6 +58,15 @@ author = 43086783
 task = "shell.exec"
 args = "python peer.py"
 
+[[workflows.workflow]]
+name = "send-peer"
+mode = "sequential"
+author = 43086783
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python send.py"
+
 [[ports]]
 localPort = 5050
 externalPort = 80

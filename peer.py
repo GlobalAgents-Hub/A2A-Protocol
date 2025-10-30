@@ -2,6 +2,7 @@
 import socket
 import threading
 import json
+import traceback
 from a2a import interact
 
 PORT = 5050
@@ -20,7 +21,8 @@ def handle_peer(conn, addr):
                 interact(*entities)
                 print(f"🤝 Interação recebida: {entities}")
         except Exception as e:
-            print(f"Erro: {e}")
+            print("❌ Erro ao processar interação:")
+            traceback.print_exc()
     conn.close()
 
 def start_server():
@@ -39,6 +41,3 @@ def send_interaction(ip, entities):
     msg = json.dumps({"type": "interaction", "entities": entities})
     client.send(msg.encode())
     client.close()
-
-if __name__ == "__main__":
-    start_server()
