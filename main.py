@@ -112,6 +112,7 @@ def demo():
     typer.echo("Step 1: Spawning entities...")
     spawn("Orion")
     spawn("Nova")
+    spawn("Lyra")
     
     typer.echo("\nStep 2: Creating zones...")
     zone("Lyra")
