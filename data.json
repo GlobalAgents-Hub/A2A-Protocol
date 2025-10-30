@@ -2,44 +2,66 @@
   "entities": {
     "Orion": {
       "name": "Orion",
-      "created_at": "2025-10-30T16:53:27.999230",
+      "created_at": "2025-10-30T16:57:43.361073",
       "zone": null
     },
     "Nova": {
       "name": "Nova",
-      "created_at": "2025-10-30T16:53:27.999807",
+      "created_at": "2025-10-30T16:57:43.361894",
+      "zone": null
+    },
+    "Lyra": {
+      "name": "Lyra",
+      "created_at": "2025-10-30T16:58:20.240100",
       "zone": null
     }
   },
   "zones": {
     "Lyra": {
       "name": "Lyra",
-      "created_at": "2025-10-30T16:53:28.000330",
+      "created_at": "2025-10-30T16:57:43.362395",
       "entities": []
     },
     "Cosmos": {
       "name": "Cosmos",
-      "created_at": "2025-10-30T16:53:28.000888",
+      "created_at": "2025-10-30T16:57:43.362990",
       "entities": []
     }
   },
-  "interactions": [],
+  "interactions": [
+    {
+      "timestamp": "2025-10-30T16:58:27.590889",
+      "entities": [
+        "Orion",
+        "Nova",
+        "Lyra"
+      ]
+    }
+  ],
   "logs": [
     {
-      "timestamp": "2025-10-30T16:53:27.999534",
+      "timestamp": "2025-10-30T16:57:43.361338",
       "message": "Spawned entity: Orion"
     },
     {
-      "timestamp": "2025-10-30T16:53:28.000044",
+      "timestamp": "2025-10-30T16:57:43.362131",
       "message": "Spawned entity: Nova"
     },
     {
-      "timestamp": "2025-10-30T16:53:28.000611",
+      "timestamp": "2025-10-30T16:57:43.362684",
       "message": "Created zone: Lyra"
     },
     {
-      "timestamp": "2025-10-30T16:53:28.001164",
+      "timestamp": "2025-10-30T16:57:43.363238",
       "message": "Created zone: Cosmos"
+    },
+    {
+      "timestamp": "2025-10-30T16:58:20.242194",
+      "message": "Spawned entity: Lyra"
+    },
+    {
+      "timestamp": "2025-10-30T16:58:27.592037",
+      "message": "Interaction: Orion \u2194 Nova \u2194 Lyra"
     }
   ]
 }
