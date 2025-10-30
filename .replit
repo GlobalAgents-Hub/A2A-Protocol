@@ -39,3 +39,12 @@ args = "python main.py demo"
 
 [workflows.workflow.metadata]
 outputType = "console"
+
+[[workflows.workflow]]
+name = "onboardind zone"
+mode = "sequential"
+author = 43086783
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python iniation.py"
