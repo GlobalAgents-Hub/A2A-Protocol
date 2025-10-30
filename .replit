@@ -48,3 +48,12 @@ author = 43086783
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python initiation.py"
+
+[[workflows.workflow]]
+name = "rodar P2P "
+mode = "sequential"
+author = 43086783
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python peer.py"

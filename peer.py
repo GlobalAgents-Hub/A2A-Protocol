@@ -39,3 +39,6 @@ def send_interaction(ip, entities):
     msg = json.dumps({"type": "interaction", "entities": entities})
     client.send(msg.encode())
     client.close()
+
+if __name__ == "__main__":
+    start_server()
