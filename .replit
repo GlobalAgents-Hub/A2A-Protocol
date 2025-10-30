@@ -29,6 +29,10 @@ author = "agent"
 task = "workflow.run"
 args = "CLI Demo"
 
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Peer Server"
+
 [[workflows.workflow]]
 name = "CLI Demo"
 author = "agent"
@@ -67,6 +71,22 @@ author = 43086783
 task = "shell.exec"
 args = "python send.py"
 
+[[workflows.workflow]]
+name = "Peer Server"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python peer.py"
+waitForPort = 8080
+
+[workflows.workflow.metadata]
+outputType = "console"
+
 [[ports]]
 localPort = 5050
 externalPort = 80
+
+[[ports]]
+localPort = 8080
+externalPort = 8080

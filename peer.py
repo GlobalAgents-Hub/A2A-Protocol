@@ -5,7 +5,7 @@ import json
 import traceback
 from a2a import interact
 
-PORT = 5050
+PORT = 8080
 BUFFER = 1024
 
 def handle_peer(conn, addr):
@@ -41,3 +41,6 @@ def send_interaction(ip, entities):
     msg = json.dumps({"type": "interaction", "entities": entities})
     client.send(msg.encode())
     client.close()
+
+if __name__ == "__main__":
+    start_server()
