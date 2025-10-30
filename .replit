@@ -57,3 +57,7 @@ author = 43086783
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python peer.py"
+
+[[ports]]
+localPort = 5050
+externalPort = 80
