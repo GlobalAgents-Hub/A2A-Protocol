@@ -2,73 +2,70 @@
   "entities": {
     "Orion": {
       "name": "Orion",
-      "created_at": "2025-10-30T17:20:04.725932",
+      "created_at": "2025-11-02T02:47:20.760130",
       "zone": null
     },
     "Nova": {
       "name": "Nova",
-      "created_at": "2025-10-30T17:20:04.726421",
+      "created_at": "2025-11-02T02:47:20.763603",
       "zone": null
     },
     "Lyra": {
       "name": "Lyra",
-      "created_at": "2025-10-30T17:20:04.728321",
+      "created_at": "2025-11-02T02:47:20.767142",
+      "zone": null
+    },
+    "Oon": {
+      "name": "Oon",
+      "created_at": "2025-11-02T03:18:29.604655",
       "zone": null
     }
   },
   "zones": {
     "Lyra": {
       "name": "Lyra",
-      "created_at": "2025-10-30T17:20:04.730111",
+      "created_at": "2025-11-02T02:47:20.770523",
       "entities": []
     },
     "Cosmos": {
       "name": "Cosmos",
-      "created_at": "2025-10-30T17:20:04.731930",
+      "created_at": "2025-11-02T02:47:20.772695",
       "entities": []
     }
   },
   "interactions": [
     {
-      "timestamp": "2025-10-30T17:20:04.733622",
+      "timestamp": "2025-11-02T02:47:20.777778",
       "entities": [
         "Orion",
         "Nova",
         "Lyra"
       ]
-    },
-    {
-      "timestamp": "2025-10-30T18:52:59.540459",
-      "entities": [
-        "Lyra",
-        "Nova",
-        "Orion"
-      ]
     }
   ],
   "logs": [
     {
-      "timestamp": "2025-10-30T17:20:04.726167",
+      "timestamp": "2025-11-02T02:47:20.761395",
       "message": "Spawned entity: Orion"
     },
     {
-      "timestamp": "2025-10-30T17:20:04.727403",
+      "timestamp": "2025-11-02T02:47:20.765586",
       "message": "Spawned entity: Nova"
     },
     {
-      "timestamp": "2025-10-30T17:20:04.729220",
+      "timestamp": "2025-11-02T02:47:20.769160",
       "message": "Spawned entity: Lyra"
     },
     {
-      "timestamp": "2025-10-30T17:20:04.730998",
+      "timestamp": "2025-11-02T02:47:20.771860",
       "message": "Created zone: Lyra"
     },
     {
-      "timestamp": "2025-10-30T17:20:04.732724",
+      "timestamp": "2025-11-02T02:47:20.774424",
       "message": "Created zone: Cosmos"
     },
     {
-      "timestamp": "2025-10-30T17:20:04.734369",
+      "timestamp": "2025-11-02T02:47:20.779789",
       "message": "Interaction: Orion \u2194 Nova \u2194 Lyra"
     }
   ]

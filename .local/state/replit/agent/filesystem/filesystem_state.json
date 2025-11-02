@@ -1,0 +1,1 @@
+{"file_contents":{"pyproject.toml":{"content":"[project]\nname = \"python-template\"\nversion = \"0.1.0\"\ndescription = \"\"\nauthors = [\"Your Name <you@example.com>\"]\nrequires-python = \">=3.11\"\ndependencies = []\n","size_bytes":157},"main.py":{"content":"","size_bytes":0}},"version":2}

@@ -83,6 +83,15 @@ waitForPort = 8080
 [workflows.workflow.metadata]
 outputType = "console"
 
+[[workflows.workflow]]
+name = "Agent Simulator"
+mode = "sequential"
+author = 43086783
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python Examples/agent_simulator.py"
+
 [[ports]]
 localPort = 5050
 externalPort = 80
