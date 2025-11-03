@@ -20,6 +20,16 @@ classifiers = [
 dependencies = [
     "flask>=3.1.2",
     "typer>=0.20.0",
+    "pytest>=8.0.0",
+    "flake8>=7.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "flake8>=7.0.0",
+    "black>=23.0.0",
+    "mypy>=1.0.0"
 ]
 
 [project.urls]
