@@ -7,11 +7,10 @@
 [![Python Versions](https://img.shields.io/pypi/pyversions/a2a-protocol?style=flat-square)](https://www.python.org)
 
 <!-- Social links (replace placeholders with your real profiles) -->
-[![Website](https://img.shields.io/badge/Website-GlobalAgents-blue?style=flat-square)](https://globalagents.example)
-[![X](https://img.shields.io/badge/X-@GlobalAgents--Hub-1DA1F2?logo=twitter&style=flat-square)](https://x.com/GlobalAgents-Hub)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-GlobalAgents-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/company/globalagents-hub)
-[![YouTube](https://img.shields.io/badge/YouTube-GlobalAgents-red?logo=youtube&style=flat-square)](https://www.youtube.com/@GlobalAgentsHub)
-[![Discord](https://img.shields.io/badge/Discord-Join-purple?logo=discord&style=flat-square)](https://discord.gg/your-invite)
+[![Website](https://img.shields.io/badge/Website-GlobalAgents-blue?style=flat-square)](https://globalagents.club)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-GlobalAgents-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/company/global-agents-a2a)
+[![YouTube](https://img.shields.io/badge/YouTube-GlobalAgents-red?logo=youtube&style=flat-square)](https://www.youtube.com/@globalagents-br)
+
 
 > Nota: Substitua os links acima pelos URLs reais das redes sociais do Global Agents. Se quiser, posso atualizar com os links corretos assim que você me passar.
 The proposal is to create a decentralized protocol for communication between agents in a peer-to-peer (P2P) network, similar to BitTorrent, where any participant can act as a server or consumer. Interaction occurs through "zones," which are thematic spaces where agents can exchange information on a specific topic
