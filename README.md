@@ -201,3 +201,52 @@ If you want, I can also:
 - Add a `requirements.txt` and example `tox` or `nox` config for multi-python testing.
 - Wire a simple README Quickstart snippet at the top of the file linking to `examples/research_agent.py`.
 
+### Developer quickstart (for contributors)
+
+Follow these steps to get a local development environment ready and to run the examples/tests easily.
+
+1) Install runtime + dev dependencies
+
+```powershell
+pip install -r requirements.txt
+```
+
+2) (Recommended) Install the package in editable mode
+
+```powershell
+pip install -e .
+```
+
+Why `pip install -e .`? In editable mode the package is installed as a link to your source tree. That means:
+- You can `from a2a import A2A` without modifying `sys.path` or copying files.
+- Changes you make in `src/a2a` are available immediately (no reinstall needed).
+- It's the standard developer workflow for Python libraries while working locally.
+
+If you prefer not to install, examples are runnable without installation using:
+
+```powershell
+python -m examples.research_agent
+```
+
+3) Run tests (data isolation)
+
+Tests use a simple fixture that isolates `data.json` per test run so your repository root is not modified. Run:
+
+```powershell
+pytest -q
+```
+
+The fixture lives in `tests/conftest.py` and automatically chdirs the test process into a temporary directory so all file-based state (including `data.json`) is created/cleaned in a temp folder.
+
+4) Linting and CI
+
+CI is provided by GitHub Actions (see `.github/workflows/python-app.yml`): it runs `flake8` and `pytest` on pushes/PRs to `main`.
+
+5) Publish to PyPI
+
+When you're ready to publish a release, bump `version` in `pyproject.toml`, tag the commit and create a GitHub Release. The `python-publish.yml` workflow will build and publish the package if `PYPI_API_TOKEN` is configured in repository secrets.
+
+---
+
+If you'd like, I can also add a short contributor section (PR template + CODEOWNERS) and a small Makefile / PowerShell script to make the common commands one-liners.
+
