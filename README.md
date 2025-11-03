@@ -264,3 +264,18 @@ When you're ready to publish a release, bump `version` in `pyproject.toml`, tag 
 
 See `CONTRIBUTING.md` for contributor guidelines, a submit-a-PR checklist and one-line scripts to run common developer tasks (tests, lint, examples).
 
+## Current Status
+The A2A Protocol currently implements a **multi-threaded socket-based architecture** as the foundation for peer-to-peer communication. Each agent runs as an independent peer that can connect directly to other peers without a central server.
+
+**Implemented:**
+- ✅ Direct peer-to-peer socket connections (TCP)
+- ✅ Multi-threaded concurrent agent handling
+- ✅ Decentralized zone-based communication
+- ✅ No central server required
+
+**Roadmap (P2P enhancements):**
+- 🔄 DHT-based peer discovery
+- 🔄 NAT traversal (STUN/TURN)
+- 🔄 Gossip protocol for zone propagation
+- 🔄 WebRTC support for browser agents
+
