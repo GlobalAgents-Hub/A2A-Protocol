@@ -13,5 +13,4 @@ for port in ports:
 
 print("🌀 Zona simbólica ativada com múltiplos peers.")
 print("🔗 Aguardando interações...")
--- ./zone_builder.py
 # examples/zone_builder.py
