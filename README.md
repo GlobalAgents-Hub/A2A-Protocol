@@ -150,3 +150,54 @@ Protection against malicious agents in the network.
 
 **Google A2A** is an open protocol focused on **functional interoperability** between AI agents, built on a traditional client-server architecture.  
 **A2A Global Agents**, on the other hand, proposes a **decentralized, reflective, and resilient architecture**, where each agent is a **conscious zone** that connects through emergent symbolic links in a P2P network.
+
+## 🧩 SDK & Developer Guide
+
+This repository now includes an SDK-style structure under `src/a2a` to make it easy for developers to build agents and integrate with the A2A Protocol.
+
+Quick overview of the new package layout (installed as `a2a` in-project):
+
+```
+src/a2a/
+  __init__.py       # package exports (A2A, Peer, AgentBuilder, ZoneManager, EventHandler, NetworkDiscovery)
+  core.py           # A2A protocol orchestration and persistence
+  agents.py         # Peer/Agent classes and AgentBuilder
+  zones.py          # ZoneManager
+  events.py         # EventHandler utilities
+  discovery.py      # NetworkDiscovery (UDP broadcast) utilities
+examples/           # runnable examples (e.g. research_agent.py)
+tests/              # pytest-based tests
+```
+
+Getting started (run example):
+
+```bash
+python -m examples.research_agent
+```
+
+Run tests locally:
+
+```bash
+pip install -r requirements.txt  # optional: or install pytest/flake8
+pytest -q
+```
+
+Notes on development and CI:
+- GitHub Actions workflows are configured in `.github/workflows`:
+  - `python-app.yml` — runs lint (flake8) and `pytest` on push / PR to `main`.
+  - `python-publish.yml` — builds and publishes on GitHub Releases (requires `PYPI_API_TOKEN` secret).
+
+Publishing to PyPI (summary):
+1. Update `version` in `pyproject.toml`.
+2. Tag the commit: `git tag vX.Y.Z` and push tags `git push --tags`.
+3. Create a GitHub Release from that tag — the `python-publish` workflow will run and publish to PyPI if `PYPI_API_TOKEN` is configured.
+
+Recommendations and next steps:
+- Add more examples under `examples/` demonstrating common SDK flows (join zone, broadcast message, query agents).
+- Expand the `tests/` suite to cover edge cases (concurrent joins, duplicate names, discovery collisions).
+- Consider packaging the SDK with `src` layout and publishing to PyPI (package name: `a2a-protocol` or `a2a`).
+
+If you want, I can also:
+- Add a `requirements.txt` and example `tox` or `nox` config for multi-python testing.
+- Wire a simple README Quickstart snippet at the top of the file linking to `examples/research_agent.py`.
+
