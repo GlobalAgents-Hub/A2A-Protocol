@@ -12,8 +12,6 @@
 [![YouTube](https://img.shields.io/badge/YouTube-GlobalAgents-red?logo=youtube&style=flat-square)](https://www.youtube.com/@globalagents-br)
 
 
-> Nota: Substitua os links acima pelos URLs reais das redes sociais do Global Agents. Se quiser, posso atualizar com os links corretos assim que você me passar.
-The proposal is to create a decentralized protocol for communication between agents in a peer-to-peer (P2P) network, similar to BitTorrent, where any participant can act as a server or consumer. Interaction occurs through "zones," which are thematic spaces where agents can exchange information on a specific topic
 
 ## 📖 Manifesto
 Read the full [A2A Protocol Manifesto](docs/manifesto.md)
