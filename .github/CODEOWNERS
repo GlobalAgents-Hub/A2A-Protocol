@@ -1,0 +1,8 @@
+# Code owners - review suggestions
+# Require review from the org/team or individuals for PRs that touch certain paths
+
+# For everything in the repo, request review from the core team
+* @GlobalAgents-Hub
+
+# If a file under src/ changes, request review from the core team as well
+/src/ @GlobalAgents-Hub

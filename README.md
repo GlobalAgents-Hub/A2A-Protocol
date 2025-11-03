@@ -248,5 +248,5 @@ When you're ready to publish a release, bump `version` in `pyproject.toml`, tag 
 
 ---
 
-If you'd like, I can also add a short contributor section (PR template + CODEOWNERS) and a small Makefile / PowerShell script to make the common commands one-liners.
+See `CONTRIBUTING.md` for contributor guidelines, a submit-a-PR checklist and one-line scripts to run common developer tasks (tests, lint, examples).
 
