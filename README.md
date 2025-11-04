@@ -1,12 +1,12 @@
 # A2A-Protocol - Global Agents
 
-<!-- Social & CI badges -->
+ 
 [![CI](https://img.shields.io/github/actions/workflow/status/GlobalAgents-Hub/A2A-Protocol/.github/workflows/python-app.yml?branch=main&style=flat-square)](https://github.com/GlobalAgents-Hub/A2A-Protocol/actions)
 [![PyPI](https://img.shields.io/pypi/v/a2a-protocol?style=flat-square)](https://pypi.org/project/a2a-protocol)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square)](LICENSE)
 [![Python Versions](https://img.shields.io/pypi/pyversions/a2a-protocol?style=flat-square)](https://www.python.org)
 
-<!-- Social links (replace placeholders with your real profiles) -->
+ 
 [![Website](https://img.shields.io/badge/Website-GlobalAgents-blue?style=flat-square)](https://globalagents.club)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-GlobalAgents-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/company/global-agents-a2a)
 [![YouTube](https://img.shields.io/badge/YouTube-GlobalAgents-red?logo=youtube&style=flat-square)](https://www.youtube.com/@globalagents-br)
@@ -203,15 +203,7 @@ Publishing to PyPI (summary):
 1. Update `version` in `pyproject.toml`.
 2. Tag the commit: `git tag vX.Y.Z` and push tags `git push --tags`.
 3. Create a GitHub Release from that tag — the `python-publish` workflow will run and publish to PyPI if `PYPI_API_TOKEN` is configured.
-
-Recommendations and next steps:
-- Add more examples under `examples/` demonstrating common SDK flows (join zone, broadcast message, query agents).
-- Expand the `tests/` suite to cover edge cases (concurrent joins, duplicate names, discovery collisions).
-- Consider packaging the SDK with `src` layout and publishing to PyPI (package name: `a2a-protocol` or `a2a`).
-
-If you want, I can also:
-- Add a `requirements.txt` and example `tox` or `nox` config for multi-python testing.
-- Wire a simple README Quickstart snippet at the top of the file linking to `examples/research_agent.py`.
+ 
 
 ### Developer quickstart (for contributors)
 
