@@ -21,16 +21,15 @@ Read the full [A2A Protocol Manifesto](docs/manifesto.md)
 The proposal is to create a decentralized protocol for communication between agents in a peer-to-peer (P2P) network, similar to BitTorrent, where any participant can act as a server or consumer. Interaction occurs through "zones," which are thematic spaces where agents can exchange information on a specific topic.
 
 ## Development Philosophy
-The A2A Protocol is built using an AI-assisted development approach. 
-We use AI to accelerate prototyping and scaffolding, but every piece of code 
-is reviewed, debugged, and iterated with the community. 
 
-Our focus is not on who wrote each line, but on how we evolve together. 
-The roadmap makes clear that this is a continuous process — from the first 
-functional version to the peer-to-peer architecture. 
+The A2A Protocol uses **AI-assisted development** to accelerate prototyping and scaffolding. 
+Every piece of code is reviewed, debugged, and validated by the community.
 
-A2A is open source, community-driven, and transparent. Authority here comes 
-from publishing, engaging, and sustaining collective evolution.
+We focus on **transparent iteration** — the roadmap shows we're building from a functional 
+TCP/socket foundation toward full P2P architecture. Authority comes from shipping working code, 
+engaging with feedback, and evolving collectively.
+
+A2A is open source, community-driven, and honest about its current state.
 
 
 ## Protocol Characteristics:
@@ -268,7 +267,10 @@ When you're ready to publish a release, bump `version` in `pyproject.toml`, tag 
 See `CONTRIBUTING.md` for contributor guidelines, a submit-a-PR checklist and one-line scripts to run common developer tasks (tests, lint, examples).
 
 ## Current Status
-The A2A Protocol currently implements a **multi-threaded socket-based architecture** as the foundation for peer-to-peer communication. Each agent runs as an independent peer that can connect directly to other peers without a central server.
+
+The A2A Protocol currently implements a **multi-threaded socket-based architecture** 
+(✅ **Phase 1 - MVP complete**) as the foundation for peer-to-peer communication. 
+Each agent runs as an independent peer that can connect directly to other peers without a central server.
 
 **Implemented:**
 - ✅ Direct peer-to-peer socket connections (TCP)
