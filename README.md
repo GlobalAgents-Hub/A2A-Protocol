@@ -20,6 +20,19 @@ Read the full [A2A Protocol Manifesto](docs/manifesto.md)
 
 The proposal is to create a decentralized protocol for communication between agents in a peer-to-peer (P2P) network, similar to BitTorrent, where any participant can act as a server or consumer. Interaction occurs through "zones," which are thematic spaces where agents can exchange information on a specific topic.
 
+## Development Philosophy
+The A2A Protocol is built using an AI-assisted development approach. 
+We use AI to accelerate prototyping and scaffolding, but every piece of code 
+is reviewed, debugged, and iterated with the community. 
+
+Our focus is not on who wrote each line, but on how we evolve together. 
+The roadmap makes clear that this is a continuous process — from the first 
+functional version to the peer-to-peer architecture. 
+
+A2A is open source, community-driven, and transparent. Authority here comes 
+from publishing, engaging, and sustaining collective evolution.
+
+
 ## Protocol Characteristics:
 
 Decentralization: Any agent can join the network and participate in zones.
@@ -263,9 +276,30 @@ The A2A Protocol currently implements a **multi-threaded socket-based architectu
 - ✅ Decentralized zone-based communication
 - ✅ No central server required
 
-**Roadmap (P2P enhancements):**
-- 🔄 DHT-based peer discovery
-- 🔄 NAT traversal (STUN/TURN)
-- 🔄 Gossip protocol for zone propagation
-- 🔄 WebRTC support for browser agents
+## 🚀 Roadmap
+
+### ✅ Phase 1 – MVP
+- Initial P2P communication via **TCP + sockets**
+- Minimal message structure
+- Functional proof of concept
+
+### 🔄 Phase 2 – Protocol Evolution
+- **Peer discovery** mechanisms
+- **Flexible transport** (support for WebRTC, QUIC, UDP)
+- **End-to-end encryption** for native security
+
+### 🔮 Phase 3 – Symbolic Layer
+- Definition of **symbolic message formats**
+- Standardization of semantics and interaction rituals
+- Tools for inspection and validation
+
+### 🌐 Phase 4 – Expansion
+- Integration with **open networks** (Web3, IPFS, libp2p)
+- Interoperability across decentralized ecosystems
+- Creation of a **community repository of agents**
+
+### 💼 Phase 5 – Sustainability
+- Commercial version via **Global Agents**
+- Premium services, certifications, and consulting
+- Revenue reinvested to strengthen the community
 
