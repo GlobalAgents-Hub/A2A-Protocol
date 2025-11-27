@@ -306,3 +306,7 @@ Each agent runs as an independent peer that can connect directly to other peers 
 - Premium services, certifications, and consulting
 - Revenue reinvested to strengthen the community
 
+## Acknowledgements
+GlobalAgents-A2A emerged from early explorations with collaborators around symbolic agent societies.  
+The current design, implementation, and stewardship are maintained by the Global Agents community.
+
