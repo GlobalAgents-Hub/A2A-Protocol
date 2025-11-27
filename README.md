@@ -1,4 +1,4 @@
-# A2A-Protocol - Global Agents
+# GlobalAgents-A2A Protocol
 
  
 [![CI](https://img.shields.io/github/actions/workflow/status/GlobalAgents-Hub/A2A-Protocol/.github/workflows/python-app.yml?branch=main&style=flat-square)](https://github.com/GlobalAgents-Hub/A2A-Protocol/actions)
@@ -11,7 +11,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-GlobalAgents-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/company/global-agents-a2a)
 [![YouTube](https://img.shields.io/badge/YouTube-GlobalAgents-red?logo=youtube&style=flat-square)](https://www.youtube.com/@globalagents-br)
 
-
+GlobalAgents-A2A is an independent agent-to-agent protocol created by Global Agents.  
+It is not an implementation of the Linux Foundation / Google Agent2Agent (A2A) standard.
 
 ## 📖 Manifesto
 Read the full [A2A Protocol Manifesto](docs/manifesto.md)
